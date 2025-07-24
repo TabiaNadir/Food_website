@@ -9,9 +9,8 @@ Follow the steps below to run this project locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/UBAIDRAZA1/Food_website.git>
 
-Replace <repository-url> with your GitHub repository link.
 
 2. Navigate to the Project Directory
 cd <project-folder>
@@ -23,4 +22,14 @@ npm install
 npm run dev
 
 5. Open in Browser
-http://localhost:5173/
+http://localhost:5173
+
+
+
+6. Install Dependencies:
+
+npm install react-router-dom lucide-react
+npm install react-router-dom
+npm install framer-motion
+
+
