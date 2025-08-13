@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import HoursPopup from './components/HoursPopup';
+import MealPlanner from './components/MealPlanner';
 import KeyFeatures from './components/KeyFeatures';
 import AdvancedFeatures from './components/AdvancedFeatures';
 import VisualShowcase from './components/VisualShowcase';
@@ -9,6 +10,7 @@ import Testimonials from './components/Testimonials';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 import { LanguageProvider } from './components/LanguageContext';
+import ChatWidget from './components/ChatWidget';
 
 // Main App component jo website ka core structure handle karta hai
 const App = () => {
@@ -88,6 +90,7 @@ const App = () => {
           showHoursPopup={showHoursPopup}
           setShowHoursPopup={setShowHoursPopup}
         />
+        <MealPlanner />
         {/* Key features of the app */}
         <KeyFeatures />
         {/* Advanced features section */}
@@ -100,6 +103,8 @@ const App = () => {
         <CTA />
         {/* Footer with additional links aur info */}
         <Footer />
+        <ChatWidget />
+        
       </div>
     </LanguageProvider>
   );
