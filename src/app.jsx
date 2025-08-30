@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import HoursPopup from './components/HoursPopup';
 import MealPlanner from './components/MealPlanner';
 import KeyFeatures from './components/KeyFeatures';
+import Resources from './components/Resources';
 import AdvancedFeatures from './components/AdvancedFeatures';
 import VisualShowcase from './components/VisualShowcase';
 import Testimonials from './components/Testimonials';
@@ -93,6 +94,8 @@ const App = () => {
         <MealPlanner />
         {/* Key features of the app */}
         <KeyFeatures />
+
+        <Resources />
         {/* Advanced features section */}
         <AdvancedFeatures />
         {/* Visual showcase of app features */}

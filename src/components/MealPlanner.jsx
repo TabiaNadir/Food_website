@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useLanguage } from './LanguageContext';
-import { Utensils, Camera, List } from 'lucide-react';
+import {  Camera, List } from 'lucide-react';
 
 const MealPlanner = () => {
   const { language, translations } = useLanguage();
