@@ -14,7 +14,7 @@ const KeyFeatures = () => {
       price: translations[language]?.features?.free || 'Free',
       color: 'bg-gradient-to-r from-green-400 to-emerald-500',
       image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=300&auto=format&fit=crop',
-      link: '/calorie-tracker', // Matches CalorieTracker route
+      link: '/smart-nutrition-menu', // Matches CalorieTracker route
     },
     {
       name: translations[language]?.features?.mealGenerator?.name || 'AI Meal Planner',
